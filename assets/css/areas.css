@@ -1,7 +1,7 @@
 body{
     background:#ececec
 }
-h1{
+header h1{
 	font-weight: 600;
     height:77px;
     margin:0 0 0 0;
@@ -18,7 +18,7 @@ h1{
     line-height:125%;
 	letter-spacing: -1px;
 }
-h1 a{
+header h1 a{
 	font-weight: 600;
     color:#333;
     text-decoration:none;
@@ -107,7 +107,7 @@ a:hover{
     }
 }
 @media (min-width: 500px){
-	h1 a{
+	header h1 a{
 		font-weight: 600;
 		color:#333;
 		text-decoration:none;
@@ -436,7 +436,7 @@ header{
     background:#9d5420;
     padding:0;
     color:#fff;
-    height:440px;
+    height:290px;
     left:0;
     top:0;
     width:32.6%;
