@@ -7,7 +7,10 @@
     <title>Seongwoo Hong - Temporary Static Page</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <script type="text/javascript">
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+      if (window.location.protocol != "https:" && location.hostname == "swh.trustko.com") window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
     <style style="text/css">
     html {
       position: relative;
